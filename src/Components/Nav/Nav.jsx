@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <header className="bg-gray-800 px-4 py-3 text-white flex justify-between items-center fixed">
+    <header className="bg-gray-800 px-4 py-3 text-white flex justify-between items-center fixed w-full">
       <h1 className="font-semibold tracking-wider">TAILWINDCSS</h1>
 
       <div className='md:hidden'>
@@ -21,8 +21,6 @@ export default function Nav() {
           />
         </svg>
       </div>
-
-    
 
     </header>
   );
