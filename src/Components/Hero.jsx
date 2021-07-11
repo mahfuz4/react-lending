@@ -1,14 +1,11 @@
 import React from "react";
-import heroImg from "../image/hero.webp";
+import classes from "./hero.module.css";
 
 export default function Hero() {
   return (
     <div className="h-96">
       <div
-        className="bg-center bg-no-repeat h-custom bg-cover w-full mb-css lg:large-css flex flex-col text-center text-gray-200 justify-center items-center px-5"
-        style={{
-          backgroundImage: `linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.8)), url(${heroImg})`,
-        }}
+        className={`${classes.hero} hero bg-center bg-no-repeat h-custom bg-cover w-full mb-css lg:large-css flex flex-col text-center text-gray-200 justify-center items-center px-5`}
       >
         <h1 className="text-3xl md:text-5xl  mb-4  font-bold">
           Your story starts with us.

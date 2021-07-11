@@ -2,7 +2,12 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: theme => ({
+        // 'hero-pattern': "url('./src/image/hero.webp')",
+  
+       })
+    },
     height: {
       sm: "8px",
       md: "16px",
