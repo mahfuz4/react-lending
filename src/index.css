@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  @variants responsive {
+    .mb-css {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+    .large-css {
+      clip-path: polygon(0 0, 100% 0, 100% 91%, 0% 100%);
+    }
+
+    .md-css {
+      clip-path: polygon(0 0, 100% 0, 100% 95%, 0% 100%);
+    }
+    .sm-css {
+      clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
+    }
+
+    .img-clip {
+      clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
+    }
+  }
+}
