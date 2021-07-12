@@ -3,7 +3,7 @@ import React from "react";
 
 export default function Nav() {
   return (
-    <header className="bg-gray-800 px-4 lg:px-8 py-3 text-white flex justify-between items-center sticky top-0 z w-full">
+    <header className="bg-gray-800 px-4 lg:px-8 py-3 text-white flex justify-between items-center sticky top-0 z-10 shadow-md w-full">
       <div className="sm:flex">
         <h1 className="font-semibold tracking-wider">TAILWINDCSS</h1>
 
