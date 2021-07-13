@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="py-5 text-sm tracking-wider	 text-gray-500 text-center">
-        <p>Copyright © 2021 Notus PRO React by Creative Tim.</p>
+        <p>Copyright © 2021 Mahfuz Anam & Zubayer JS.</p>
       </div>
     </section>
   );
