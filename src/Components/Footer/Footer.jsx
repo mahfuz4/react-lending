@@ -3,18 +3,18 @@ import Iconimg from "./Iconimg";
 
 export default function Footer() {
   return (
-    <section className="bg-blue-50 ">
-      <div className="grid md:grid-cols-2 md:max-w-xl lg:max-w-3xl max-w-7xl mx-auto py-24 -mt-12 border-b border-gray-300">
-        <div className="w-full  ">
+    <section className="bg-blue-50">
+      <div className="grid md:grid-cols-2 gap-4 md:max-w-xl lg:max-w-3xl xl:max-w-5xl mx-auto py-24 -mt-16 border-b border-gray-300">
+        <div className="text-center md:text-left">
           <h1 className="text-xl tracking-wide font-semibold text-gray-700 leading-relaxed	">
             Let's keep in touch!
           </h1>
           <p className="text-base text-gray-500">
             Find us on any of these platforms, we respond 1-2 business days.
           </p>
-          <Iconimg className="" />
+          <Iconimg />
         </div>
-        <div className="ml-20 w-full grid grid-cols-2 ">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-0 text-center md:text-left">
           <div className="text-sm text-gray-600 leading-relaxed">
             <h2 className="  font-semibold">USEFUL LINKS</h2>
             <ul className="list-none">
@@ -53,7 +53,7 @@ export default function Footer() {
         </div>
       </div>
       <div className="py-5 text-sm tracking-wider	 text-gray-500 text-center">
-        <p>Copyright © 2021 Mahfuz Anam & Zubayer JS.</p>
+        <p>Copyright © 2021 Mahfuz Anam & ZubayerJS.</p>
       </div>
     </section>
   );

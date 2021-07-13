@@ -61,7 +61,7 @@ export function Card() {
    return (
       <>
          {context.map(card => (
-            <div className='text-center flex flex-col items-center mb-5'>
+            <div className='text-center flex flex-col items-center mb-5' key={card.id}>
                <img className='w-28 max-h-28 object-cover rounded-full' src={card.src} alt="card profile" />
                < h1 className='text-gray-700 text-lg font-bold mt-5 uppercase' > {card.name}</h1 >
                <h2 className='text-md text-gray-400 capitalize'>{card.title}</h2>

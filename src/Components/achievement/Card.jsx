@@ -1,35 +1,35 @@
 import React, { createContext, useContext } from "react";
 
 const cardDetails = [
-  {
-    id: 1,
-    profile: "medal",
-    title: "Excelent Services",
-    subTitle:
-      "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    id: 2,
-    profile: "poll",
-    title: "Excelent Services",
-    subTitle: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
-  {
-    id: 3,
-    profile: "lightbulb",
-    title: "Excelent Services",
-    subTitle: "Some quick example text to build on the card title and make up the bulk of the card's content.",
-  },
+   {
+      id: 1,
+      profile: "medal",
+      title: "Excelent Services",
+      subTitle:
+         "Some quick example text to build on the card title and make up the bulk of the card's content.",
+   },
+   {
+      id: 2,
+      profile: "poll",
+      title: "Excelent Services",
+      subTitle: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+   },
+   {
+      id: 3,
+      profile: "lightbulb",
+      title: "Excelent Services",
+      subTitle: "Some quick example text to build on the card title and make up the bulk of the card's content.",
+   },
 ];
 
 const CardContext = createContext()
 
 export default function Cards() {
-  return (
-     <CardContext.Provider value={cardDetails}>
+   return (
+      <CardContext.Provider value={cardDetails}>
          <Card />
       </CardContext.Provider>
-  )
+   )
 }
 
 const Card = () => {

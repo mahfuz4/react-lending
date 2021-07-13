@@ -1,5 +1,4 @@
-import React from "react";
-import Icon from "./Icon";
+import React, { createContext, useContext } from "react";
 
 const icon_img = [
   {
@@ -24,12 +23,34 @@ const icon_img = [
   }
 ];
 
+const IconContext = createContext();
+
 export default function Iconimg() {
   return (
-    <div className="mt-6 lg:mb-0 mb-6 flex ">
-      {icon_img.map(({ id, url, icon_1 }) => (
-        <Icon key={id} url={url} icon_1={icon_1} />
+    <IconContext.Provider value={icon_img}>
+      <div className="my-6">
+        <Icon />
+      </div>
+    </IconContext.Provider>
+  );
+}
+
+export function Icon() {
+  const context = useContext(IconContext)
+  return (
+    <>
+      {context.map(icon => (
+        <a
+          key={icon.id}
+          type="button"
+          target="_blank"
+          rel="noreferrer"
+          className="bg-white text-regular shadow-lg font-normal p-2 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2 inline-flex"
+          href={icon.url}
+        >
+          <i className={icon.icon_1}></i>
+        </a>
       ))}
-    </div>
+    </>
   );
 }
