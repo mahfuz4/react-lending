@@ -40,7 +40,7 @@ export function Card() {
    return (
       <>
          {context.map(con => (
-            <div className={`flex flex-col justify-center items-center p-4 bg-white shadow-xl text-center rounded-md`}>
+            <div className={`flex flex-col justify-center items-center p-4 bg-white shadow-xl text-center rounded-md`} key={con.id}>
                <div className={`p-4 w-12 mb-4 flex justify-center items-center ${con.className} text-gray-200  rounded-full`}>
                   <i className={`fas fa-${con.icon}`}></i>
                </div>

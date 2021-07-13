@@ -33,7 +33,7 @@ export function Catagory() {
    return (
       <>
          {context.map(cat => (
-            <p className='text-left text-gray-500 my-5 flex items-center'><span className='bg-blue-100 text-blue-400 flex justify-center items-center w-8 p-2 text-center rounded-full'><i className={cat.icon}></i></span> <span className='ml-4'>{cat.text}</span></p>
+            <p key={cat.id} className='text-left text-gray-500 my-5 flex items-center'><span className='bg-blue-100 text-blue-400 flex justify-center items-center w-8 p-2 text-center rounded-full'><i className={cat.icon}></i></span> <span className='ml-4'>{cat.text}</span></p>
          ))}
       </>
    )
