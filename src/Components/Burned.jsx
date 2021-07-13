@@ -32,7 +32,7 @@ export default function Burned() {
             <p className='text-gray-400 text-lg'>I've fought hard to get out of the hole I was in. I've dusted myself, and exactly like dancer, I have danced with the fear, you should have filmed me.</p>
          </div>
 
-         <div className='grid md:grid-cols-3 gap-8 md:max-w-3xl lg:max-w-5xl mx-auto px-5'>
+         <div className='grid md:grid-cols-3 gap-8 max-w-7xl mx-auto px-5'>
             {cards.map(({ id, className, title, subtitle }) => (
                <Cards key={id} unique={id} className={className} title={title} subtitle={subtitle} />
             ))}
