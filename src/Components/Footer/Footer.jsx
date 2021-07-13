@@ -4,7 +4,7 @@ import Iconimg from "./Iconimg";
 export default function Footer() {
   return (
     <section className="bg-blue-50 ">
-      <div className="grid md:grid-cols-2 md:max-w-xl lg:max-w-3xl xl:max-w-7xl mx-auto py-24 -mt-12 border-b border-gray-300">
+      <div className="grid md:grid-cols-2 md:max-w-xl lg:max-w-3xl max-w-7xl mx-auto py-24 -mt-12 border-b border-gray-300">
         <div className="w-full  ">
           <h1 className="text-xl tracking-wide font-semibold text-gray-700 leading-relaxed	">
             Let's keep in touch!
