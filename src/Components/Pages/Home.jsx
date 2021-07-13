@@ -18,5 +18,7 @@ export default function Home() {
       <Input/>
       <Footer />
     </>
+
+    
   );
 }
