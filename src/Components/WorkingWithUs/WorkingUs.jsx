@@ -5,7 +5,7 @@ import P from '../ReusableComp/P'
 
 export default function WorkingUs() {
    return (
-      <div className='md:max-w-3xl lg:max-w-5xl mx-auto my-24'>
+      <div className='md:max-w-3xl lg:max-w-4xl mx-auto my-24'>
 
 
          <div className='grid md:grid-cols-2'>
