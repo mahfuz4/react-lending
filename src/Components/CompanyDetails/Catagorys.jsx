@@ -3,7 +3,7 @@ import React, { createContext, useContext } from 'react';
 const catagory = [
    {
       id: 1,
-      icon: 'fas fa-user-friends',
+      icon: 'fas fa-fingerprint',
       text: 'Carefully crafted components'
    },
    {
