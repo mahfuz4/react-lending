@@ -1,5 +1,7 @@
 import React from 'react'
 import Burned from '../Burned'
+import CompanyDetails from '../CompanyDetails/CompanyDetails'
+import Employe from '../Employee/Employe'
 import Hero from '../Hero'
 import Nav from '../Nav/Nav'
 import WorkingUs from '../WorkingWithUs/WorkingUs'
@@ -13,6 +15,9 @@ export default function Home() {
                 <Burned />
                 <WorkingUs />
             </div>
+            <CompanyDetails />
+
+            <Employe />
         </>
     )
 }
