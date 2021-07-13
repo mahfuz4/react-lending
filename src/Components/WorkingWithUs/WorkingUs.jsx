@@ -13,9 +13,9 @@ export default function WorkingUs() {
                <div className="w-16 p-5 bg-gray-50 text-gray-600 text-xl flex justify-center items-center rounded-full shadow-lg mb-5">
                   <i className="fas fa-user-friends"></i>
                </div>
-               <H1 title='Working with us is a pleasure' className='text-2xl text-gray-800' />
+               <H1 title='Working with us is a pleasure' className='text-3xl text-gray-800' />
 
-               <P text={`Don't let your users guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.`} weight='600' />
+               <P text={`Don't let your users guess by attaching tooltips and popoves to any element. Just make sure you enable them first via JavaScript.`} weight='600' className='text-lg' />
 
                <P text={`The kit comes with three pre-built pages to help you get started faster. You can change the text and images and you're good to go. Just make sure you enable them first via JavaScript.`} weight='600' />
             </div>
