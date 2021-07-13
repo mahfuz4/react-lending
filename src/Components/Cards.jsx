@@ -8,7 +8,7 @@ export default function Cards({ className, title, subtitle, unique }) {
             <i className="fas fa-award"></i>
          </div>
          <H1 title={title} />
-         <p className='text-gray-400 text-md leading-7'>{subtitle}</p>
+         <p className='text-gray-400 text-sm'>{subtitle}</p>
       </div>
    )
 }
