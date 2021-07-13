@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Input() {
   return (
-    <section className="py-28 bg-gray-900 text-white sm-css md:md-css ">
+    <section className="py-28 text-white sm-css md:md-css ">
       <div className="text-center w-full  lg:w-8/12 mx-auto mb-14">
         <span 
           className="select-none uppercase text-green-600 text-xs px-2 py-1 rounded bg-green-300 font-semibold"
@@ -18,7 +18,7 @@ export default function Input() {
           especially when you do nothing for yourself.
         </p>
       </div>
-      <div className=" w-full lg:w-6/12 mx-auto text-gray-600 bg-blue-50 shadow-sm p-10 rounded ">
+      <div className=" w-10/12 md:8/12 lg:w-6/12 mx-auto text-gray-600 bg-blue-50 shadow-sm p-10 rounded ">
         <h1 className="text-gray-700 text-2xl font-bold leading-relaxed">
           Want to work with us?
         </h1>

@@ -18,6 +18,10 @@
       clip-path: polygon(0 0, 100% 0, 100% 97%, 0% 100%);
     }
 
+    .cb-css {
+      clip-path: polygon(0 4%, 100% 0, 100% 97%, 0% 100%);
+    }
+
     .img-clip {
       clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
     }

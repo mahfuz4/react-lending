@@ -1,7 +1,6 @@
 import React from 'react'
 import Cards from './Cards'
 import H1 from './ReusableComp/H1'
-
 export default function Burned() {
    return (
       <>
